@@ -1,3 +1,5 @@
+![Registration form](https://github.com/Roshansinghyadav/Registration-Form-React-Repo/assets/114619262/4657eb2f-8c11-4794-b2c0-2760515b9b84)
+
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
