@@ -25,7 +25,7 @@ function Form(){
     }
     return(
         <>
-        <pre>{(flag)?<h2 className='ui-define'>Hello{inputData.name},You've Registered Successfully</h2>:" "}</pre>
+        <pre>{(flag)?<h2 className='ui-define'>Hello {inputData.name},You've Registered Successfully</h2>:" "}</pre>
         <form className='container' onSubmit={handleSubmit}>
             <div className='header'>
                 <h1>Registration Form</h1>
@@ -33,7 +33,7 @@ function Form(){
                     <input type='text' placeholder='Enter Your Name' name='name' value={inputData.name} onChange={handleData}></input>
                 </div>
                 <div>
-                    <input type='text' placeholder='Enter Your e-mail' name='email' value={inputData.email} onChange={handleData}></input>
+                    <input type='text' placeholder='Enter Your E-Mail' name='email' value={inputData.email} onChange={handleData}></input>
                 </div>
                 <div>
                     <input type='text' placeholder='Enter Your Passward' name='passward'value={inputData.passward} onChange={handleData}></input>
